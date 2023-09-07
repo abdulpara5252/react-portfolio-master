@@ -5,15 +5,15 @@ import {
   useState,
 } from 'react';
 
-const DARK_LOCAL_STORAGE_KEY = 'dark';
+const DARK_LOCAL_STORAGE_KEY = 'light';
 
 export const ThemeContext = createContext({
-  dark: true,
+  light: true,
   toggle: () => {},
 });
 
 export const ThemeProvider = ({ children }) => {
-  const [dark, setDark] = useState(true); // dark by default
+  const [light, setDark] = useState(true); // dark by default
 
   const toggleTheme = useCallback(() => {
     setDark((prevDark) => {
@@ -22,8 +22,8 @@ export const ThemeProvider = ({ children }) => {
         JSON.stringify(!prevDark),
       );
 
-      document.body.classList.toggle('dark', !prevDark);
-      document.body.classList.toggle('light', prevDark);
+      document.body.classList.toggle('dark', prevDark);
+      document.body.classList.toggle('light', !prevDark);
 
       return !prevDark;
     });
@@ -35,15 +35,15 @@ export const ThemeProvider = ({ children }) => {
     );
 
     if (localValue === null) {
-      document.body.classList.add('dark');
+      document.body.classList.add('light');
     } else {
       setDark(localValue);
-      document.body.classList.add(localValue ? 'dark' : 'light');
+      document.body.classList.add(localValue ? 'light' : 'dark');
     }
   }, []);
 
   return (
-    <ThemeContext.Provider value={{ dark, toggleTheme }}>
+    <ThemeContext.Provider value={{ light, toggleTheme }}>
       {children}
     </ThemeContext.Provider>
   );

@@ -6,11 +6,11 @@ import { ReactComponent as ToggleDarkIcon } from '../../assets/toggle-dark.svg';
 import { useThemeContext } from '../../hooks/themeHook/themeHook';
 
 const BtnToggleTheme = ({ className }) => {
-  const { dark, toggleTheme } = useThemeContext();
+  const { light, toggleTheme } = useThemeContext();
 
   const ToggleThemeIcon = useMemo(
-    () => (dark ? ToggleDarkIcon : ToggleLightIcon),
-    [dark],
+    () => (light ? ToggleLightIcon  : ToggleLightIcon),
+    [light],
   );
 
   return (

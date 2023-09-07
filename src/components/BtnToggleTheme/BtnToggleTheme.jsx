@@ -9,7 +9,7 @@ const BtnToggleTheme = ({ className }) => {
   const { light, toggleTheme } = useThemeContext();
 
   const ToggleThemeIcon = useMemo(
-    () => (light ? ToggleLightIcon  : ToggleLightIcon),
+    () => (light ? ToggleLightIcon  : ToggleDarkIcon),
     [light],
   );
 

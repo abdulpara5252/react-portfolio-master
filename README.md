@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://react-portfolio-master-ap.vercel.app/" target="_blank">Sv.dev</a>
+  <a href="https://react-portfolio-master-ap.vercel.app/" target="_blank">react-portfolio-master-ap</a>
 </h2>
 
 <div align="center">

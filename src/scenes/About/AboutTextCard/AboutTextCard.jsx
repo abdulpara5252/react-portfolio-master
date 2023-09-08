@@ -11,7 +11,7 @@ const AboutTextCard = () => {
         <br />
         Software engineer with expertise in cross-platform development{' '}
         <br />
-        using React.
+        using ReactJs.
         <br />
         <br />
         I have a Bachelor's degree in Bachlor of Computer Application and

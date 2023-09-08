@@ -23,14 +23,14 @@ const IntroSection = () => {
             <p>
               I'm a FrontEnd Developer with two years of
               experience <br />
-              creating Web apps for Angular And React Technologies.
+              creating Web apps for Angular And ReactJs Technologies.
             </p>
 
             <p>
               My skills include proficiency in{' '}
               <i>
                 <b className={s.purple}>
-                  TypeScript, React, Angular,
+                  TypeScript, Javascript, ReactJs, Angular,
                 </b>
               </i>
               <br />

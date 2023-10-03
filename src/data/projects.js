@@ -10,7 +10,7 @@ const data = [
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://apps.apple.com/us/app/syntho/id1615419392',
+      site: '',
     },
     technologies: [
       '#typescript',
@@ -34,7 +34,7 @@ const data = [
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://apps.apple.com/us/app/minfin-currency-rates/id1574863878',
+      site: '',
     },
     technologies: [
       '#typescript',
@@ -56,8 +56,8 @@ const data = [
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/rn-fashion?serviceType=classic&distribution=expo-go',
-      repo: 'https://github.com/vsnaichuk/fashion-app',
+      site: '',
+      repo: '',
     },
     technologies: [
       '#typescript',
@@ -78,8 +78,8 @@ const data = [
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://apiko-marketplace-app-snaichuk.herokuapp.com/',
-      repo: 'https://github.com/vsnaichuk/apiko-marketplace-app-snaichuk',
+      site: '',
+      repo: '',
     },
     technologies: [
       '#react',
@@ -102,8 +102,8 @@ const data = [
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://yourplaces-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/MERN-places',
+      site: '',
+      repo: '',
     },
     technologies: [
       '#react',
@@ -128,8 +128,8 @@ const data = [
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/online-shop-app',
-      repo: 'https://github.com/vsnaichuk/RN-shop',
+      site: '',
+      repo: '',
     },
     technologies: [
       '#react-native',
@@ -153,8 +153,8 @@ const data = [
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: 'https://expo.dev/@v_snaichuk/rn-places',
-      repo: 'https://github.com/vsnaichuk/RN-places',
+      site: '',
+      repo: '',
     },
     technologies: [
       '#react-native',
@@ -178,7 +178,7 @@ const data = [
     },
     links: {
       site: 'https://shopping-cart-sv.netlify.app/',
-      repo: 'https://github.com/vsnaichuk/React-ShoppingCart',
+      repo: '',
     },
     technologies: [
       '#react',

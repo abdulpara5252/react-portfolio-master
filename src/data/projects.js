@@ -1,62 +1,58 @@
 const data = [
   {
     id: '1',
-    title: 'Syntho',
+    title: 'Air-Max',
     description:
-      'Syntho is an electronic music education application. Connect with like minded users as you build your own custom profile, communicate and share music via the newsfeed.',
+      'Air-Max is a clone of the Nike sneakers web application, designed for users to browse, communicate, and share their favorite styles.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1671564532/portfolio/projects/Syntho/Screenshot_2022-12-20_at_21.26.17_1_c59hzo.jpg',
+      src: 'https://res.cloudinary.com/dgiysct9d/image/upload/v1729249146/nike_uc3rro.jpg',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: '',
+      site: 'https://air-max-beta.vercel.app/',
     },
     technologies: [
-      '#typescript',
-      '#react-native',
-      '#react-native-web',
-      '#mobx-state-tree',
-      '#expo',
-      '#i18next',
-      '#react-navigation',
-      '#sentry',
+      '#Reactjs',
+      '#Animation',
+      '#Cart',
+      '#Javascript',
+      '#HTML',
+      '#CSS',
     ],
   },
   {
     id: '2',
-    title: 'Minfin - Currency Rates',
+    title: 'Controle-PS5-main',
     description:
-      'Minfin Currency - application with all necessary information about currency: from currency rates - to the nearest places where you can exchange currency in your city.',
+      'Controle-PS5 is a web application designed for PlayStation 5 enthusiasts. Explore the latest games, all in a sleek and interactive interface.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1671563302/portfolio/projects/minfin/Screenshot_2022-12-20_at_21.06.43_vl5h6k.jpg',
+      src: 'https://res.cloudinary.com/dgiysct9d/image/upload/v1729250141/e160a485-bdb5-497b-9139-236a4f016dbc.png',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: '',
+      site: 'https://controle-ps-5.vercel.app',
     },
     technologies: [
-      '#typescript',
-      '#react-native',
-      '#mobx-keystone',
-      '#i18next',
-      '#firebase-analytics',
-      '#google-maps',
+      '#HTML5',
+      '#CSS3',
+      '#JavaScript',
+      '#Animation',
     ],
   },
   {
     id: '3',
-    title: 'Outfitr',
+    title: 'StarBucks-main',
     description:
-      'A react native app with animations made with react-native-reanimated. The app is based on the Outfitr - Fashion UI Kit.',
+      'StarBucks is a visually engaging landing page that captures the essence of the Starbucks experience. Designed with a modern aesthetic.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1671562261/portfolio/projects/fashion/Screenshot_2022-12-20_at_20.45.27_peyqly.jpg',
+      src: 'https://res.cloudinary.com/dgiysct9d/image/upload/v1729250806/starbucks.jpg',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: '',
+      site: 'https://670bc6f0e8cedb72976fcd3b--starbuckindia.netlify.app/',
       repo: '',
     },
     technologies: [
@@ -66,113 +62,80 @@ const data = [
       '#react-native-reanimated',
       '#react-navigation',
     ],
-  },
+  },  
   {
     id: '4',
-    title: 'Apiko Marketplace',
+    title: 'Admin_Dashbord_WebApp',
     description:
-      'An online marketplace made with React. The project was developed on 8th Apiko Intensive.',
+      'Admin Dashboard Web App provides a comprehensive interface for monitoring key metrics and managing operations. Features include static charts for visualizing data, progress bars to track performance, and sections for customer feedback and recent orders.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348072/portfolio/projects/react-marketplace/apiko-marketplace-lg_xppe9n.jpg',
+      src: 'https://res.cloudinary.com/dgiysct9d/image/upload/v1729251614/adminwhite_ksfozj.jpg',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: '',
+      site: 'https://dashboard-app-eight-sigma.vercel.app/',
       repo: '',
     },
     technologies: [
       '#react',
-      '#redux',
-      '#socket.io',
-      '#scss',
-      '#formik',
-      '#react-window',
-      '#restapi',
+      '#html',
+      '#css',
+      '#context',
+      '#customcomponent',
     ],
   },
   {
     id: '5',
-    title: 'Places App',
+    title: 'shoppinn',
     description:
-      'A MERN app to let users share their experience of places along with Details. It is user friendly and can be useful to many others.',
+      'Shoppinn is a dynamic e-commerce application featuring a product page where users can browse items, add them to their cart, and proceed to checkout. The app utilizes mock data to simulate cart functionality, providing a seamless shopping experience.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348070/portfolio/projects/mern-places/mern-places-lg_xf6zom.jpg',
+      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/react-shop-cart/rn-shop-cart-lg_w3qxn6.jpg',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: '',
+      site: 'https://shoppinn-rho.vercel.app/',
       repo: '',
     },
     technologies: [
       '#react',
       '#nodejs',
-      '#express',
-      '#mongodb',
-      '#react-query',
-      '#react-transition-group',
-      '#mongoose',
-      '#jwt',
-      '#aws',
+      '#mockdata',
+      '#contextapi',
     ],
   },
   {
     id: '6',
-    title: 'eCommerce Mobile App',
+    title: 'fanta-main',
     description:
-      'A Mobile eCommerce application built with React Native that includes cart functionality, push notifications, user authentication and user orders',
+      'Fanta Animation App is a dynamic web experience that brings the UI to life with fluid animations. Built with HTML, CSS, and JavaScript, it features responsive design and engaging interactive animations powered by GSAP (GreenSock Animation Platform) for a smooth user experience.',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-shop/rn-shop-lg_fofglf.jpg',
+      src: 'https://res.cloudinary.com/dgiysct9d/image/upload/v1729255870/fanta_drvil1.jpg',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },
     links: {
-      site: '',
+      site: 'https://main--fantaaanimation.netlify.app/',
       repo: '',
     },
     technologies: [
       '#react-native',
-      'expo',
+      '#expo',
       '#redux',
       '#redux-toolkit',
       '#react-navigation',
       '#nodejs',
-      '#express',
-      '#mongodb',
-    ],
-  },
-  {
-    id: '7',
-    title: 'Places Mobile App',
-    description:
-      'A Mobile application for sharing places that people visit from all over the world. Uses React Native, TypeScript, MobX and Native Device Features',
-    image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/rn-places/rn-places-lg_ljyikm.jpg',
-      placeholderSrc:
-        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
-    },
-    links: {
-      site: '',
-      repo: '',
-    },
-    technologies: [
-      '#react-native',
-      '#typescript',
-      '#expo',
-      '#mobx',
-      '#sqlite',
-      '#react-native-maps',
-      '#expo-location',
     ],
   },
   {
     id: '8',
     title: 'Shopping Cart',
     description:
-      'Simple eCommerce cart application built with React and TypeScript. Uses SWR hook to fetch the data from the API and Styled Components',
+      'Simple eCommerce cart application built with React and Javascript. Uses SWR hook to fetch the data from the API and Styled Components',
     image: {
-      src: 'https://res.cloudinary.com/dx6tl6aa2/image/upload/v1628348073/portfolio/projects/react-shop-cart/rn-shop-cart-lg_w3qxn6.jpg',
+      src: 'https://res.cloudinary.com/dgiysct9d/image/upload/v1729256227/coloshop-free-shopping-websites-templates_ojqyqh.jpg',
       placeholderSrc:
         'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
     },

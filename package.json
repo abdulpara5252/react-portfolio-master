@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "classnames": "^2.3.2",
+    "emailjs-com": "^3.2.0",
+    "formik": "^2.4.6",
     "modern-normalize": "^1.1.0",
     "node-sass": "^8.0.0",
     "react": "^18.2.0",
@@ -26,7 +28,8 @@
     "workbox-expiration": "^5.1.4",
     "workbox-precaching": "^5.1.4",
     "workbox-routing": "^5.1.4",
-    "workbox-strategies": "^5.1.4"
+    "workbox-strategies": "^5.1.4",
+    "yup": "^1.4.0"
   },
   "scripts": {
     "start": "react-scripts start",

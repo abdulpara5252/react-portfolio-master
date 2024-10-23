@@ -1,71 +1,103 @@
 .content {
   padding: 9rem 9rem 3rem;
+
+  @media (max-width: 925px) {
+    padding: 9rem 3rem 1rem;
+  }
+
+  @media (max-width: 600px) {
+    padding: 5rem 2rem 1rem;
+  }
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;  // Change to flex-start for better alignment on smaller screens
+  flex-wrap: wrap;          // Allow wrapping for smaller screens
+
+  @media (max-width: 925px) {
+    flex-direction: column;
+    align-items: center;     // Center items on smaller screens
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    padding-bottom: 10px;
+  }
 }
 
 .title {
   padding-top: 10px;
   color: var(--txt);
-  font-size: 6rem;
-  font-weight: 200;
+  font-size: 2.3rem;
+  font-weight: 500;
+
+  @media (max-width: 925px) {
+    font-size: 2rem;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 1.8rem;
+  }
 }
 
 .filesImg {
-  width: 35%;
-  min-width: 120px;
-  padding: 1rem;
+  width: 35%;                // Base width for larger screens
+  min-width: 120px;          // Minimum width to prevent it from becoming too small
+  padding: 1rem;             // Padding around the container
+  display: flex;             // Use flex to align items horizontally
+  flex-direction: column;     // Stack items vertically
+  align-items: center;       // Center items horizontally
 
   img {
-    width: 100%;
-    height: auto;
-    display: block;
+    width: 100%;             // Ensure image fills the container width
+    height: auto;            // Maintain aspect ratio
+    display: block;          // Block display for proper spacing
   }
 
-  .hero-svg2 {
-    fill: #8a4ca8;
+  @media (max-width: 925px) {
+    width: 50%;              // Adjust width for mid-sized screens
+    margin: 1rem 0;          // Add vertical margin for spacing
+  }
+
+  @media (max-width: 768px) {
+    width: 70%;              // Increase width for tablets
+    margin: 1rem auto;       // Center the image horizontally
+  }
+
+  @media (max-width: 600px) {
+    width: 100%;             // Full width for mobile devices
+    padding: 0.5rem;         // Reduce padding on mobile for more space
+    margin: 0 auto;          // Center the container on mobile
+  }
+
+  @media (max-width: 500px) {
+    width: 100%;             // Ensure it stays full width on smaller mobiles
+    padding: 0.25rem;        // Further reduce padding for very small screens
   }
 }
 
 .pdfWrapper {
   width: 100%;
   padding: 1rem 0;
+
+  @media (max-width: 600px) {
+    padding: 2rem 0;
+  }
 }
 
 .downloadText {
   margin-left: 8px;
   text-transform: uppercase;
 }
+
 .filename {
   padding-top: 3px;
   text-transform: uppercase;
   font-size: 12px;
 }
 
-
-@media (max-width: 600px) {
-  .header {
-    padding-bottom: 10px;
-  }
-  .title {
-    font-size: 3rem;
-  }
-
-  .pdfWrapper {
-    width: 100%;
-    padding: 2rem 0;
-  }
-}
-
-@media (max-width: 925px) {
-  .content {
-    padding: 9rem 3rem 1rem;
-  }
-  .title {
-    font-size: 4rem;
-  }
+.purple {
+  color: var(--txt-secondary);
 }

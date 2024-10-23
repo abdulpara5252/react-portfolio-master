@@ -7,6 +7,8 @@ import Button from '../../components/UIElements/Button/Button';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 // react-pdf
 import { pdfjs } from 'react-pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -37,13 +39,13 @@ const Resume = () => {
         .send(SERVICE_ID, TEMPLATE_ID, values, PUBLIC_KEY)
         .then((response) => {
           console.log('SUCCESS!', response.status, response.text);
-          alert('Your message has been sent!');
+          toast.success('Your message has been sent!', { autoClose: 2000 });
           resetForm();
           setSubmitting(false);
         })
         .catch((err) => {
           console.log('FAILED...', err);
-          alert('Something went wrong. Please try again.');
+          toast.error('Failed to send message. Please try again.', { autoClose: 2000 })
           setSubmitting(false);
         });
     },
@@ -169,6 +171,7 @@ const Resume = () => {
                     : 'Send Message'}
                 </Button>
               </div>
+              <ToastContainer />
             </form>
           </div>
         </div>

@@ -152,6 +152,29 @@ const data = [
       '#fakestoreapi',
     ],
   },
+  {
+    id: '9',
+    title: 'Vakeel Saab',
+    description:
+      'Vakeel Saab AI Chatbot (Legal Assistant) - Engineered an LLM-powered chatbot using RAG pipeline with Llama2. Integrated Langchain, ChromaDB, FastAPI, and Streamlit for seamless user experience. Deployed solution on AWS infrastructure with S3 document storage and EC2 backend API also login using supabase authentication.',
+    image: {
+      src: 'https://res.cloudinary.com/dgiysct9d/image/upload/v1748259159/dashbord_ieqt3b.jpg',
+      placeholderSrc:
+        'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjwvc3ZnPg==',
+    },
+    links: {
+      site: '',
+      repo: '',
+    },
+    technologies: [
+      '#Remixjs',
+      '#Supabase',
+      '#RagPipeline',
+      '#prisma',
+      '#chakraui',
+      '#postgresql',
+    ],
+  }
 ];
 
 export default data;

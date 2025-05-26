@@ -14,8 +14,7 @@ import { pdfjs } from 'react-pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const resumeLink =
-  'https://drive.google.com/file/d/1ENgbKc5dQ8Z4Ax9VGfokaE8k46EI7JNp/view?usp=sharing';
-
+  'https://drive.google.com/file/d/1woSdefpyzmUnBo7xGdg6ac36CsIXIeA5/view?usp=sharing';
 const SERVICE_ID = 'service_26h3eoi';
 const TEMPLATE_ID = 'template_jmka3qk';
 const PUBLIC_KEY = 'XpR4CrPcf68g_gqR8';
